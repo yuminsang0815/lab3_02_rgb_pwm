@@ -1,0 +1,10 @@
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab3_20_rgb_pwm\src -I C:\Users\a2391\lab3_20_rgb_pwm\sim -s tb_rgb_pwm -o C:\Users\a2391\lab3_20_rgb_pwm\build\sim\run-b1a90b5ef43c454eb7f87a5e2e5fc218\sim.vvp C:\Users\a2391\lab3_20_rgb_pwm\src\button_onepulse.v C:\Users\a2391\lab3_20_rgb_pwm\src\pwm_channel.v C:\Users\a2391\lab3_20_rgb_pwm\src\lab3_rgb_pwm.v C:\Users\a2391\lab3_20_rgb_pwm\sim\tb_rgb_pwm.sv
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab3_20_rgb_pwm\build\sim\run-b1a90b5ef43c454eb7f87a5e2e5fc218\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB3_RGB_PWM_PASS checks=2
+C:\Users\a2391\lab3_20_rgb_pwm\sim\tb_rgb_pwm.sv:86: $finish called at 4431000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab3_20_rgb_pwm\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, pressany key to close it. 
